@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gotu&display=swap" rel="stylesheet">
+    <link rel="icon" href="http://cim.saddleback.edu/~sclaudio0/favicon.png" type="image/png">
+    <!-- TemplateBeginEditable name="doctitle" -->
+    <title>Stephanie's Portfolio</title>
+    <!-- TemplateEndEditable -->
+    <!-- Bootstrap -->
+    <link href="../CSS/bootstrap-4.4.1.css" rel="stylesheet">
+    <link href="../index.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <nav class="mainNav">
+  <ul class="text-center col-md-10 offset-md-1">
+    <li><a href="http://cim.saddleback.edu/~sclaudio0/">Portfolio Home Page</a></li>
+        <li><a href="http://cim.saddleback.edu/~sclaudio0/HTML/HTMLHomePage/">HTML</a></li>
+        <li><a href="http://cim.saddleback.edu/~sclaudio0/CSSHomePage.html">CSS Class Projects</a></li>
+        <li><a href="http://cim.saddleback.edu/~sclaudio0/JavaScriptHomePage.html">JavaScript</a></li>
+        <li><a href="http://cim.saddleback.edu/~sclaudio0/PhotoshopBootstrapDW.html">Photoshop</a></li>
+  </ul>
+	</nav>    
+  <div class="jumbotron jumbotron-fluid text-center">
+  <h1 class="display-4"><!-- TemplateBeginEditable name="EditRegion3" -->Welcome to EditRegion3 My Photoshop Portfolio!<!-- TemplateEndEditable --></h1>
+       <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel" style="background-color: gray">
+         <ol class="carousel-indicators">
+           <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+           <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+           <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+         </ol>
+        <div class="carousel-inner" role="listbox">
+           <!-- TemplateBeginEditable name="EditRegion4" -->EditRegion4<div class="carousel-item active"><img class="d-block w-100 h-100 mh-100" src="../Images/charon.jpg" alt="First slide">
+           </div><!-- TemplateEndEditable -->
+           <div class="carousel-item"> <img class="d-block w-100 h-100 mh-100" src="../manticorecopy.jpg" alt="Second slide">
+           </div>
+           <div class="carousel-item"> <img class="d-block w-100 h-100 mh-100" src="../flowersbg.jpg" alt="Third slide">
+           </div>
+		  <div class="carousel-item"> <img class="d-block w-100 h-100 mh-100" src="../mountainbg.png" alt="Fourth slide">
+          </div>
+		 <div class="carousel-item"> <img class="d-block w-100 h-100 mh-100" src="../orbsbg.jpg" alt="Fifth slide">
+          </div>	 
+		 <div class="carousel-item"> <img class="d-block w-100 h-100 mh-100" src="../tongue.jpg" alt="Sixth slide">
+          </div>	  	 
+         </div>
+         <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div> 
+<!-- TemplateBeginEditable name="EditRegion5" -->EditRegion5<p class="lead">A few of my favorite photoshop images.</p><!-- TemplateEndEditable -->
+       <hr class="my-4">
+    <!-- TemplateBeginEditable name="EditRegion6" -->  <p>Thank you for visiting my photoshop webpage! Photoshop was one of my favorite programs to learn and I use it throughout my website. My background was created with the photoshop image filter feature stained glass and&nbsp; many of my images were also created and or modified using photoshop. For example, if you visit my javascript page, you will notice a small image of an ice cream cone. The image was courtesy of <a href="https://commons.wikimedia.org/wiki/File:Soft_Ice_cream.jpg#/media/File:Soft_Ice_cream.jpg">Wikipedia</a>. Using the posterize  feature on Photoshop, I blurred the image and wrote "Vanilla JavaScript" as a play the popular JavaScript phrase.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p><!-- TemplateEndEditable -->
+  </div>
+       <br>
+       <hr>    
+		<div class="container">
+
+  <!-- TemplateBeginEditable name="EditRegion7" -->EditRegion7<h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Thumbnail Gallery</h1><!-- TemplateEndEditable -->
+
+  <hr class="mt-2 mb-5">
+
+  <div class="row text-center text-lg-left">
+
+    <div class="col-lg-3 col-md-4 col-6"><!-- TemplateBeginEditable name="EditRegion8" --><a href="#" class="d-block mb-4 h-100 gallery"> <img class="img-fluid img-thumbnail" src="../charonthumbnail.png" alt=""> </a><!-- TemplateEndEditable --></div>
+    <div class="col-lg-3 col-md-4 col-6"><!-- TemplateBeginEditable name="EditRegion9" --><a href="#" class="d-block mb-4 h-100 gallery"> <img class="img-fluid img-thumbnail" src="../manticorenewfinalversion.png" alt=""> </a><!-- TemplateEndEditable --></div>
+    <div class="col-lg-3 col-md-4 col-6"><!-- TemplateBeginEditable name="EditRegion10" --><a href="#" class="d-block mb-4 h-100 gallery"> <img class="img-fluid img-thumbnail" src="../tongue.png" alt=""> </a><!-- TemplateEndEditable --></div>
+    <div class="col-lg-3 col-md-4 col-6"><!-- TemplateBeginEditable name="EditRegion11" --><a href="#" class="d-block mb-4 h-100 gallery"> <img class="img-fluid img-thumbnail" src="../illustration.png" alt=""> </a><!-- TemplateEndEditable --></div>
+    <div class="col-lg-3 col-md-4 col-6"><!-- TemplateBeginEditable name="EditRegion12" --><a href="#" class="d-block mb-4 h-100 gallery"> <img class="img-fluid img-thumbnail" src="../flowers.png" alt=""> </a><!-- TemplateEndEditable --></div>
+    <div class="col-lg-3 col-md-4 col-6"><!-- TemplateBeginEditable name="EditRegion13" --><a href="#" class="d-block mb-4 h-100 gallery"> <img class="img-fluid img-thumbnail" src="../seahorse.png" alt=""> </a><!-- TemplateEndEditable --></div>
+    <div class="col-lg-3 col-md-4 col-6"><!-- TemplateBeginEditable name="EditRegion14" --><a href="#" class="d-block mb-4 h-100 gallery"> <img class="img-fluid img-thumbnail" src="../Rhino.png" alt=""> </a><!-- TemplateEndEditable --></div>
+    <div class="col-lg-3 col-md-4 col-6"><!-- TemplateBeginEditable name="EditRegion15" --><a href="#" class="d-block mb-4 h-100 gallery"> <img class="img-fluid img-thumbnail" src="../orbs.jpg" alt=""> </a><!-- TemplateEndEditable --></div>
+    <div class="col-lg-3 col-md-4 col-6"><!-- TemplateBeginEditable name="EditRegion16" --><a href="#" class="d-block mb-4 h-100 gallery"> <img class="img-fluid img-thumbnail" src="../mountain.jpg" alt=""> </a><!-- TemplateEndEditable --></div>
+    <div class="col-lg-3 col-md-4 col-6"><!-- TemplateBeginEditable name="EditRegion17" --><a href="#" class="d-block mb-4 h-100 gallery"> <img class="img-fluid img-thumbnail" src="../movieposterhouse.png" alt=""> </a><!-- TemplateEndEditable --></div>
+    <div class="col-lg-3 col-md-4 col-6"><!-- TemplateBeginEditable name="EditRegion18" --><a href="#" class="d-block mb-4 h-100 gallery"> <img class="img-fluid img-thumbnail" src="../water.jpg" alt=""> </a><!-- TemplateEndEditable --></div>
+    <div class="col-lg-3 col-md-4 col-6"><!-- TemplateBeginEditable name="EditRegion19" --><a href="#" class="d-block mb-4 h-100 gallery"> <img class="img-fluid img-thumbnail" src="../faviconphotoshop.png" alt=""> </a><!-- TemplateEndEditable --></div>
+  </div>
+			
+		   <br>
+          <div class="text-center col-lg-6 offset-lg-3">
+             <h4>Contact Information </h4>
+             <p>Please visit my <a href="https://www.linkedin.com/in/stephanie-claudio-49614346">Linked<img src="../linkedin.png" alt="linkedin logo"></a> account or shoot me an email at <a href="mailto:sclaudio0@saddleback.edu">sclaudio0@saddleback.edu</a>.</p>
+          </div>
+       </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="../js/jquery-3.4.1.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>

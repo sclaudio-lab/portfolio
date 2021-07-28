@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+    body {
+        background-color: #1a1a1a;
+    }
+
+    h1 {
+        color: white;
+        text-align: center;
+        font-family: 'Aldrich', sans-serif;
+        font-size: 35px;
+        padding: 20px;
+    }   
+
+    img {
+        width: 50%;
+        margin-left: 25%;
+        margin-right:25%;
+        margin-bottom: 20px;
+        
+    }
+
+form > label, checkbox {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    p {
+        text-align: center;
+        display: block;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+    }
+
+#submit2 {
+   display: block;
+   text-align: center;
+   margin-right: 45%;
+   margin-left: 45%;    
+}
+
+.formRow {
+   display: block;
+   margin-right: 45%;
+   margin-left: 45%;    
+}
+    
+
+#login {
+    color: white;
+}
+
+.checkbox {
+   display: block;
+   margin-right: 45%;
+   margin-left: 45%;    
+}
+
+
+footer {
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+body > header > nav a {
+    width: 25%;
+    text-align: center;
+    outline-style: solid;
+    outline-color: white;
+    outline-width: thin;
+}
+
+nav > ul > li > a:link, nav > ul > li > a:visited {
+    color: white;
+    text-decoration: none;
+    display: block;
+    float: left;
+    font-size: 20px;
+}
+
+nav > ul > li > a:hover, nav > ul > li > a:active {
+    color: rgb(255,64,255);
+    text-decoration: underline;
+}
+
+a {
+    color: white;
+}

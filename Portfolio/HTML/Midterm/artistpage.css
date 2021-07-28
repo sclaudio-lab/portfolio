@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+
+body {
+    background-image: url(art-artist-artistic-316465.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav li {
+    display: block;
+    float: left;
+    width: 20%;
+    font-size: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    display: block;
+}
+
+header > nav a {
+    text-align: center;
+}
+
+#christian_claudio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px; 
+}
+
+
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    background-color:cornflowerblue;
+}
+
+p {
+    text-align: center;
+    display: block;
+    color: black;
+}
+
+footer {
+    text-align: center;
+}
+
+nav li:nth-of-type(5n+1) {
+    background-color: aqua;
+}
+
+nav li:nth-of-type(5n+2) {
+    background-color: chartreuse;
+}
+
+nav li:nth-of-type(5n+3) {
+    background-color: coral;
+}
+
+nav li:nth-of-type(5n+4) {
+    background-color: fuchsia;
+}
+
+nav li:nth-of-type(5n+5) {
+    background-color: aquamarine;
+}
+
+

@@ -1,0 +1,96 @@
+
+
+
+h1 {
+        color: white;
+        text-align: center;
+        font-family: 'Aldrich', sans-serif;
+        font-size: 35px;
+        padding: 20px;
+    }
+
+@keyframes modern {
+    0% {margin-left: 0px; margin-right: 0px;}
+    3% {margin-left: 0px; margin-right: 300px;}
+    7% {margin-left: 0px; margin-right: 300px;}
+    16% {margin-left: 100; margin-right: 0px;}
+    20% {margin-left: 0px; margin-right: 100px;}
+    22% {margin-left: 300px; margin-right: 0px;}
+    23% {margin-left: 250px; margin-right: 0px;}
+    26% {margin-left: 0px; margin-right: 300px;}
+    27% {margin-left: 0px; margin-right: 300px;}
+    38% {margin-left: 0px; margin-right: 300;}
+    40% {margin-left: 0px; margin-right: 300px;}
+    100% {margin-left: 0px; margin-right: 0px;} 
+}
+
+video#modern {
+      animation: modern 100s;
+}
+  
+
+input#move:checked~video#modern {
+    animation-play-state: running;
+}
+
+input#move:not(:checked)~video#modern {
+    animation-play-state: paused;
+}
+
+
+video#modern {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    margin-top: 20px; 
+}
+
+
+input [type=radio] {
+    display: block;
+}
+
+
+form {
+    width: 50%;
+    display: block;
+    text-indent: inherit;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+
+
+::cue {
+    color: white;
+    background: black;
+}
+
+body > header > nav a {
+    width: 25%;
+    text-align: center;
+    outline-style: solid;
+    outline-color: white;
+    outline-width: thin;
+}
+
+nav > ul > li > a:link, nav > ul > li > a:visited {
+    color: white;
+    text-decoration: none;
+    display: block;
+    float: left;
+    font-size: 20px;
+}
+
+nav > ul > li > a:hover, nav > ul > li > a:active {
+    color: rgb(255,64,255);
+    text-decoration: underline;
+}
+
+a {
+    color: white;
+}

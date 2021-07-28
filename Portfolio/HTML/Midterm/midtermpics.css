@@ -1,0 +1,72 @@
+/*home page layout*/
+
+/* Maybe beige Background?*/
+@charset "utf-8";
+
+html {
+    background-color: #1a1a1a;
+}
+    
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    font-kerning: 4px;
+    }   
+
+p {
+    color: white;
+    text-align: center;
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+    
+header {
+    float: right;
+    display: block;
+}
+
+header > nav a {
+    text-align: center;
+}
+    
+
+#dreamscape {
+    width: 50%;
+    display: block;
+    margin-top: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+}
+
+body > h1 {
+    display: block;
+    width: 100%;
+    
+}
+
+nav li {
+    display: block;
+    float: left;
+    width: 20%;
+    margin-top: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+footer {
+    overflow: scroll;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}

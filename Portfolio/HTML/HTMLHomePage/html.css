@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+    h1 {
+        color: white;
+        text-align: center;
+        font-family: 'Aldrich', sans-serif;
+        font-size: 35px;
+        padding: 20px;
+    }   
+
+    .photos {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+    }
+
+    .photos > img {
+        max-width: 40%;
+        margin-top: 10px;
+    }
+
+    .left {
+        flex: 0 1 50%;
+        transition: transform .9s;
+    }
+    .right {
+        flex: 0 1 50%;
+        transition: transform .9s;
+    }
+
+.left:hover {
+    transform: scale(1.5);
+}
+
+.right:hover {
+    transform: scale(1.5);
+}
+
+#h1_tag {
+    width: 140px;
+}
+
+#ptags {
+    width: 60px;
+}
+
+#listphoto {
+    width: 400px;
+}
+
+    table {
+        border-collapse: collapse;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+}
+
+    table, th, td {
+        border: 1px solid black;
+
+}
+
+    tbody {
+        padding: 5px 5px 5px 10px;
+        text-align: left;   
+    
+}    
+    table caption {
+        text-align: center;
+        font-weight: bold;
+        border: 3px solid black;
+        border-collapse: collapse;
+        background-color: #99CCCC;
+}
+
+    #firstcol {
+        background-color: #CCFFFF;
+}
+    #middlecol {
+        background-color: #99CCCC;
+}
+    #lastcol {
+        background-color: #669999;       
+}
+
+p {
+    color: white;
+    text-align: left;
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+    
+}
+
+body {
+    background-color: black;
+}
+    
+
+footer {
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+a {
+    color: white;
+}
+
+td a {
+    color: black;
+}
+
+body > header > nav a {
+    width: 25%;
+    text-align: center;
+    outline-style: solid;
+    outline-color: white;
+    outline-width: thin;
+}
+
+nav > ul > li > a:link, nav > ul > li > a:visited {
+    color: white;
+    text-decoration: none;
+    display: block;
+    float: left;
+    font-size: 20px;
+}
+
+nav > ul > li > a:hover, nav > ul > li > a:active {
+    color: rgb(255,64,255);
+    text-decoration: underline;
+}

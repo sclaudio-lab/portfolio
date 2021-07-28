@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+    h1 {
+        color: black;
+        text-align: center;
+        font-family: 'Aldrich', sans-serif;
+}
+    
+    table {
+        border-collapse: collapse;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+}
+
+    table, th, td {
+        border: 1px solid black;
+
+}
+
+    tbody {
+        padding: 5px 5px 5px 10px;
+        text-align: left;   
+    
+}    
+    table caption {
+        text-align: center;
+        font-weight: bold;
+        border: 3px solid black;
+        border-collapse: collapse;
+        background-color: #99CCCC;
+}
+
+    #firstcol {
+        background-color: #CCFFFF;
+}
+    #middlecol {
+        background-color: #99CCCC;
+}
+    #lastcol {
+        background-color: #669999;
+        
+        
+}
+    

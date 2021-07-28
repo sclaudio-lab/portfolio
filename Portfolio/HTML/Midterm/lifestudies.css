@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+background {
+    color: beige;
+}
+
+html {
+    overflow: scroll;
+/*    background-color: beige;*/
+    background-color: #efefc8; 
+}
+
+
+
+figure {
+    margin: 20px auto 0px;
+    width: 35%;
+}
+
+figure img {
+    display: block;
+    width: 100%;
+}
+
+figure figcaption {
+    background-color: darkolivegreen;
+    font-style: italic;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.man {
+    position: absolute;
+    left: 10%;
+    top: 17.5%;  
+    width: 20%;
+}
+
+.woman {
+    position: absolute;
+    width: 20%;
+    right: 10%;
+    top: 17.5%;
+}
+
+.blake {
+    position: absolute;
+    width: 20%;
+    top: 490px;
+    left: 138px;
+    
+}
+
+.self {
+    position: absolute;
+    width: 20%;
+    right: 10%;
+    top: 70%;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 55px;
+    background-color: darkolivegreen;
+}
+
+nav li {
+    display: block;
+    float: left;
+    width: 20%;
+    font-size: 25px;
+    /*margin-top: 30px;*/
+    margin-bottom: 55px;
+    background-color: darkolivegreen;
+    
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}

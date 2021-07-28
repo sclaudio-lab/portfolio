@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--
+      JavaScript 6th Edition
+      Chapter 2
+      Hands-on Project 2-1
+
+      Author: Stephanie Claudio
+      Date: 4/4/20  
+
+      Filename: index.htm  // filename changed to project2-1.htm, too many index filenames
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>Hands-on Project 2-1</title>
+   <link rel="stylesheet" href="styles.css" />
+   <script src="modernizr.custom.05819.js"></script>
+</head>
+
+<body>
+   <header>
+      <h1>
+         Hands-on Project 2-1
+      </h1>
+   </header>
+
+   <article>
+      <h2>Fahrenheit (&#176; F) to Celsius (&#176; C) converter</h2>
+      <form>
+          <fieldset>
+            <label for="fValue">
+              Enter temp in &#176; F
+            </label>
+            <input type="number" id="fValue" />
+          </fieldset>
+          <fieldset>
+            <button type="button" id="button">Convert to &#176; C</button>
+          </fieldset>
+          <fieldset>
+             <p>Temp in &#176; C</p>
+            <p id="cValue">&nbsp;</p>
+          </fieldset>
+       </form>
+    </article>
+    <article>
+      <h2> Celsius (&#176; C) to Fahrenheit (&#176; F) converter</h2>
+      <form>
+          <fieldset>
+            <label for="cValue2">
+              Enter temp in &#176; C
+            </label>
+            <input type="number" id="cValue2" />
+          </fieldset>
+          <fieldset>
+            <button type="button" id="fbutton">Convert to &#176; F</button>
+          </fieldset> 
+           <fieldset>
+             <p>Temp in &#176; F</p>
+            <p id="fValue2">&nbsp;</p>
+          </fieldset>
+     </form>
+   </article>
+    
+<script>
+    function convert() {
+        var degF = document.getElementById("fValue").value;
+        var degC = (degF - 32) * (5 / 9);
+        document.getElementById("cValue").innerHTML = degC;
+    }
+    
+    function convertF() {
+        var degC = document.getElementById("cValue2").value;
+        var degF = (degC * 9/5) + 32;
+        document.getElementById("fValue2").innerHTML = degF;
+    }
+    
+    document.getElementById("button").addEventListener("click", convert, false);
+    document.getElementById("fbutton").addEventListener("click", convertF, false);
+</script>    
+</body>
+</html>

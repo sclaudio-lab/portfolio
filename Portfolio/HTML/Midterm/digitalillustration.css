@@ -1,0 +1,142 @@
+@charset "utf-8" 
+
+    /*
+nav > li {
+    display: block;
+    width: 20%;
+    font-size: 30px;
+    text-align: center;
+}*/
+   
+
+header < nav a {
+    text-align: center;
+}
+
+header {
+    display: block;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: fantasy;
+    font-weight: bold;
+}
+    
+
+section {
+    display: flex;
+    flex: 1 1 auto;
+    padding: 40px;
+}
+
+.fantasy {
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+
+.beast {
+    width: 50%;
+    height: 500px;
+    flex: 0 1 60px;
+} 
+
+.dreamscape {
+    width: 50%;
+    height: 500px;
+    flex: 1 1 30px;
+}
+
+.knight {
+    flex: 0 1 25%;
+    width: 400px;
+    height: 500px;
+}
+
+.kerash {
+    flex: 0 2 25%;
+    width: 400px;
+    height: 500px;
+}
+
+.mech {
+    flex: 0 1 25%;
+    width: 400px;
+    height: 500px;
+}
+
+p {
+    quotes: "\201C""\201D";
+    margin: 10px;
+    margin-top: 160%;
+    line-height: 2;
+    font-family: fantasy;
+    font-weight: bolder;
+    color: darkblue;
+    
+}
+
+p::first-letter {
+    font-family: fantasy, "lucida sans unicode";
+    font-size: 450%;
+    line-height: 1;
+}
+
+footer {
+    display: block;
+    text-align: center;
+}
+
+a#navicon {
+        display: none;
+}
+
+li.horizontal {
+    display: inline;
+}
+
+
+/* Phone-size*/
+
+@media screen and (max-width: 480px) {
+
+    a#navicon {
+        display: block;
+    }
+    
+    nav.nav ul {
+        display: none;
+    }
+    
+    a#navicon:hover+ul, nav.nav ul:hover {
+        display: block;
+    }
+    
+}
+
+/*tablet-size*/
+
+@media screen and (min-width: 481px) {
+    a#navicon {
+        display: none;
+    }
+    
+    nav.nav {
+        display: block;
+    }
+}

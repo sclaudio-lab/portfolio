@@ -1,0 +1,98 @@
+<!DOCtype html>
+<html lang="en">
+<head>
+ <!--
+      Chapter 6 Web Page Form Assignment
+      Author: Stephanie Claudio
+      Date: 5/6/20  
+   -->       
+<meta charset="utf-8" />    
+</head>
+    
+<body>
+<form action="http://cim.saddleback.edu/~jstudent0/formData.php" method="post" id="form" onsubmit="return checkEmail()">
+    <div>
+        <label for="fname">First Name:</label>
+        <input pattern="([A-Z]{1}[a-z]+)" type="text" id="fname" name="fname">
+    </div>
+    <div>
+        <label for="lname">Last Name:</label>
+        <input pattern="([A-Z]|D[ei][A-Z]|Mc[A-Z]|Mac[A-Z]|O[`'])[a-z]+" type="text" id="lname" name="lname">
+    </div>
+    <div>
+        <label for="age">Age:</label> 
+        <input pattern="^(1[2-9]$)|(^[2-9][0-9]$)|(^1[0-3][0-9]$|^140$)" id="age" name="age">
+    </div>
+    <div>
+        <label for="zip">Enter 5 Digit Zip Code:</label>
+        <input pattern="[0-9]{5}" id="zip" name="zip" min="01199" max="99950">
+    </div>
+    <div>
+        <label for="phone">Phone Number:</label>
+        <input pattern="(\d{3}[ -]?\d{3}[ -]?\d{4})" type="tel" id="phone" name="phone">
+    </div>
+    <div>
+        <label for="email">Email:</label>
+        <input pattern="\w+@\w[a-z]{1,63}\.[a-z]{3}" type="email" id="email1" name="email">
+    </div>
+    <div>
+        <label for="email2">Confirm Email:</label>
+        <input pattern="\w+@\w[a-z]{1,63}\.[a-z]{3}" type="email" id="email2" name="email"> 
+    </div>
+    <div>    
+        <select id="employment" name="employment">
+          <option value="ft">Full-Time Work</option>
+          <option value="pt">Part-Time Work</option>
+          <option value="college">Focusing on College</option>
+        </select>  
+    </div>    
+<button type="submit">Submit</button>    
+<button type="reset">Reset</button>
+    
+</form>  
+<script>
+    function notice() {
+    var message = document.getElementById( "fname" );
+    message = alert("Hello " + document.getElementsByTagName( "input" )[0].value + ", make sure to complete the entire form.");  }
+    
+    
+    
+   if (document.getElementById( "fname" ).addEventListener) { 
+       document.getElementById( "fname" ).addEventListener("blur", notice, true);
+    }
+        
+    function checkEmail(){
+        var email1 = document.getElementById("email1");
+        var email2 = document.getElementById("email2");
+        if (email1.value !== email2.value){
+             alert("Email does not match, please reenter.");
+            return false;
+        }
+    } 
+    
+    
+</script>    
+
+    
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

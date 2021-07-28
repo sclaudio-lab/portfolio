@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+h1 {
+        color: white;
+        text-align: center;
+        font-family: 'Aldrich', sans-serif;
+        font-size: 35px;
+        padding: 20px;
+    }   
+
+
+#video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+#cite {
+    text-align: center;
+    display: block;
+}
+
+p {
+    display: block;
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+   .photos {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+    }
+
+    .photos > img {
+        max-width: 40%;
+        margin-top: 10px;
+    }
+
+    .left {
+        flex: 0 1 50%;
+        transition: transform .9s;
+    }
+    .right {
+        flex: 0 1 50%;
+        transition: transform .9s;
+    }
+
+.left:hover {
+    transform: scale(1.5);
+}
+
+.right:hover {
+    transform: scale(1.5);
+}
+
+.tag1 {
+    width: 170px;
+}
+
+.tag2 {
+    width: 180px;
+}
+
+
+.tag3 {
+    width: 380px;
+}
+
+/*Tablet*/
+@media only screen and (min-width: 481px){
+    .photos {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    
+     .photos > img {
+        max-width: 40%;
+        margin-top: 10px;
+    }
+
+}
+/*Phone*/
+
+@media only screen and (max-width: 480px){
+     .photos {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    
+     .photos > img {
+        max-width: 40%;
+        margin-top: 10px;
+    }
+
+    
+     .left:hover {
+        transition: none;
+        transform: none;
+    }
+    
+    .right:hover {
+        transition: none;
+        transform: none;
+    }
+    
+    .left {
+        transition: none;
+    }
+    
+    .right {
+        transition: none;
+    }
+}
+
+footer {
+    display: block;
+    text-align: center;
+    color: white;
+}
+
+
+body > header > nav a {
+    width: 25%;
+    text-align: center;
+    outline-style: solid;
+    outline-color: white;
+    outline-width: thin;
+}
+
+nav > ul > li > a:link, nav > ul > li > a:visited {
+    color: white;
+    text-decoration: none;
+    display: block;
+    float: left;
+    font-size: 20px;
+}
+
+nav > ul > li > a:hover, nav > ul > li > a:active {
+    color: rgb(255,64,255);
+    text-decoration: underline;
+}
+
+body {
+    background-color: black;
+}
+
+a {
+    color: white;
+}
+*/
